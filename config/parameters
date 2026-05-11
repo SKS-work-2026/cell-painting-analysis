@@ -1,0 +1,30 @@
+# ===============================
+# INPUT FILE
+# ===============================
+input_file <- "data/raw/Results.xlsx"
+
+# ===============================
+# 🎨 COLORS
+# ===============================
+compound_colors <- "Set1"
+
+mito_colors <- c(
+  "Depolarization" = "#E64B35",
+  "Fragmentation" = "#4DBBD5",
+  "Mixed" = "#999999"
+)
+
+bar_color <- "steelblue"
+
+# ===============================
+# 🔤 FONTS
+# ===============================
+base_font_size <- 14
+title_size <- 16
+
+# ===============================
+# THRESHOLDS
+# ===============================
+na_threshold <- 0.3
+depolar_threshold <- -1
+fragment_threshold <- 1
